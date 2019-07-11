@@ -120,7 +120,7 @@ def downscale_no_transformation_matrix(y, nRings, max_seg_diff=None):
 
             x[xi_current] += y[yi]
             x[xi_reaching] += y[yi]
-            yi +=1
+            yi += 1
 
     return x/2
 
